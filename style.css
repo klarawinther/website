@@ -1,16 +1,6 @@
 body {
   margin: 0;
-  font-family: Courier;
-}
-
-main {
-  max-width: 200px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-section {
-  margin-bottom: 3rem;
+  font-family: "Georgia", serif;;
 }
 
 header {
@@ -18,6 +8,26 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.rainbow {
+  font-weight: bold;
+  font-size: 1.5rem;
+  animation: rainbow 2s linear infinite;
+}
+
+@keyframes rainbow {
+  0% { color: red; }
+  16% { color: orange; }
+  33% { color: yellow; }
+  50% { color: green; }
+  66% { color: blue; }
+  83% { color: indigo; }
+  100% { color: violet; }
 }
 
 
