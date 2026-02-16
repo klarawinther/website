@@ -1,11 +1,11 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+  margin: 5;
+  font-family: Courier;
 }
 
 main {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 200px;
+  margin: 5 auto;
   padding: 2rem;
 }
 
