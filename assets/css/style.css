@@ -51,11 +51,11 @@ body {
   font-weight: 500;
 }
 
-.nav-links a.active {
+ul li a.active {
   color: #449782;
 }
 
-.nav-links a:hover {
+ul li a:hover {
   color: #449782; /* accent color */
 }
 
