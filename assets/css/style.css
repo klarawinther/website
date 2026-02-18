@@ -41,6 +41,8 @@ body {
   list-style: none;
   display: flex;
   gap: 1.5rem;
+  position: sticky;
+  top: 0;
 }
 
 .nav-links a {
@@ -49,8 +51,12 @@ body {
   font-weight: 500;
 }
 
+.nav-links a.active {
+  color: #449782;
+}
+
 .nav-links a:hover {
-  color: #2e7d32; /* accent color */
+  color: #449782; /* accent color */
 }
 
 /* Hero Section */
