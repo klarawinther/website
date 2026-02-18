@@ -10,24 +10,14 @@ header {
   padding: 1rem 2rem;
 }
 
-.hidden {
-  display: none;
-}
+section {
+  padding: 2rem;
+} 
 
-.rainbow {
-  font-weight: bold;
-  font-size: 1.5rem;
-  animation: rainbow 2s linear infinite;
-}
-
-@keyframes rainbow {
-  0% { color: red; }
-  16% { color: orange; }
-  33% { color: yellow; }
-  50% { color: green; }
-  66% { color: blue; }
-  83% { color: indigo; }
-  100% { color: violet; }
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #333;
 }
 
 
