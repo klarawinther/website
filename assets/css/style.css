@@ -51,11 +51,13 @@ body {
   font-weight: 500;
 }
 
-ul li a.active {
+.nav-links a.active {
   color: #449782;
+  border-bottom: 2px solid #449782;
+  padding-bottom: 3px;
 }
 
-ul li a:hover {
+.nav-links a:hover {
   color: #449782; /* accent color */
 }
 
