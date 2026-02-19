@@ -71,7 +71,6 @@ body {
 
 .hero-text {
   flex: 1;
-  margin-bottom: 1rem;
 }
 
 .hero-image {
@@ -87,7 +86,7 @@ body {
 @media (max-width: 768px) {
   .hero-layout {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 }
 
