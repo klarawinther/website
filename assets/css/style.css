@@ -96,14 +96,14 @@ body {
 
 /* Content Sections */
 .content-section {
-  border: 2px solid rgb(77, 148, 113);
-  border-radius: 5px;
-  padding: 5px;
+  padding: 4rem 0;
 }
 
 .content-section h3 {
   margin-bottom: 1rem;
   font-size: 1.5rem;
+  border: 2px solid rgb(77, 148, 113);
+  border-radius: 5px;
 }
 
 /* Footer */
