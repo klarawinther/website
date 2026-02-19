@@ -21,9 +21,9 @@ body {
 
 /* Header */
 .site-header {
-  background: rgb(103, 160, 125);
+  background: white;
   padding: 1.2rem 0;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #467c5c;
 }
 
 .site-header .container {
@@ -97,6 +97,8 @@ body {
 /* Content Sections */
 .content-section {
   padding: 4rem 0;
+  border: 2px solid rgb(77, 148, 113);
+  border-radius: 5px;
 }
 
 .content-section h3 {
