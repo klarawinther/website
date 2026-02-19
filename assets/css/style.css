@@ -64,16 +64,17 @@ body {
 /* Hero Section */
 .hero-layout {
   display: flex;
-  align-items: center;
+  /* Change 'center' to 'flex-start' so both image and text align to the top */
+  align-items: flex-start; 
   justify-content: space-between;
   gap: 3rem;
-  padding-top: 100px;
+  
+  /* Creates the gap above the entire hero section */
+  padding-top: 50px; 
 }
 
 .hero-text {
   flex: 1;
-  align-self: flex-start; /* Pulls only this specific item to the top */
-  text-align: left;       /* Ensures the text inside the box isn't centered */
 }
 
 .hero-image {
