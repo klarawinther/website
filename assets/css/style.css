@@ -21,7 +21,7 @@ body {
 
 /* Header */
 .site-header {
-  background: white;
+  background: rgb(107, 163, 128);
   padding: 1.2rem 0;
   border-bottom: 1px solid #e5e5e5;
 }
