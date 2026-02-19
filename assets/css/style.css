@@ -71,6 +71,8 @@ body {
 
 .hero-text {
   flex: 1;
+  align-self: flex-start; /* Pulls only this specific item to the top */
+  text-align: left;       /* Ensures the text inside the box isn't centered */
 }
 
 .hero-image {
@@ -86,7 +88,7 @@ body {
 @media (max-width: 768px) {
   .hero-layout {
     flex-direction: column;
-    text-align: left;
+    text-align: center;
   }
 }
 
