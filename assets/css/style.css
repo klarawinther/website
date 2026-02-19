@@ -9,7 +9,8 @@
 body {
   font-family: 'Playfair Display', serif;
   line-height: 1.6;
-  background-color: #f8f9fa;
+  background-image: url('../images/branches.jpg');
+  background-size: cover;
   color: #222;
 }
 
