@@ -73,6 +73,7 @@ body {
   flex: 1;
   align-self: flex-start; /* Pulls only this specific item to the top */
   text-align: left;       /* Ensures the text inside the box isn't centered */
+  padding-top: 20px;
 }
 
 .hero-image {
