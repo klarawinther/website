@@ -106,7 +106,8 @@ body {
 
 .content-section .container {
   border: 2px solid rgb(77, 148, 113);
-  border-radius: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
 /* Footer */
