@@ -107,10 +107,8 @@ body {
 .content-section .container {
   border: 2px solid rgb(77, 148, 113);
   border-radius: 5px;
-  width: 1000px;
-  height: 300px;  
-  padding: 5px;
-  box-sizing: border-box;
+  /* Add this line below */
+  padding: 2rem; 
 }
 
 /* Footer */
