@@ -70,7 +70,8 @@ body {
   gap: 3rem;
   
   /* Creates the gap above the entire hero section */
-  padding-top: 50px; 
+  padding-top: 50px;
+  background-color: #80a397; 
 }
 
 .hero-text {
@@ -97,7 +98,6 @@ body {
 /* Content Sections */
 .content-section {
   padding: 4rem 0;
-  border-top: #777 solid 1px;
 }
 
 .content-section h3 {
