@@ -162,14 +162,32 @@ body {
 }
 
 .contact-text ul li {
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   list-style-type: circle;
 }
 
+/* Default link */
 .contact-text a {
   color: #449782;
   text-decoration: none;
 }
+
+/* Visited link */
+.contact-text a:visited {
+  color: #357a68; /* slightly darker/muted version */
+}
+
+/* Hover state */
+.contact-text a:hover {
+  color: #2f6657;
+  text-decoration: underline;
+}
+
+/* Active (when clicked) */
+.contact-text a:active {
+  color: #1f4d42;
+}
+
 
 .contact-image img {
   width: 100%;
