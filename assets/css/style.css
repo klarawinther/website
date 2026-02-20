@@ -34,7 +34,7 @@ body {
 .logo {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #6a9d8b;
+  color: #5f8f7e;
 }
 
 .nav-links {
@@ -110,8 +110,8 @@ body {
 }
 
 .content-section .container {
-  border: 2px solid rgb(184, 184, 184);
-  border-radius: 8px;
+  border: 2px solid rgb(167, 167, 167);
+  border-radius: 5px;
 }
 
 /* Footer */
