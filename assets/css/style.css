@@ -23,7 +23,6 @@ body {
 .site-header {
   background: white;
   padding: 1.2rem 0;
-  border-bottom: 5px #6fa183;
 }
 
 .site-header .container {
@@ -35,7 +34,7 @@ body {
 .logo {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #7bc1b0;
+  color: #6a9d8b;
 }
 
 .nav-links {
@@ -111,8 +110,8 @@ body {
 }
 
 .content-section .container {
-  border: 2px solid rgb(77, 148, 113);
-  border-radius: 5px;
+  border: 2px solid rgb(184, 184, 184);
+  border-radius: 8px;
 }
 
 /* Footer */
