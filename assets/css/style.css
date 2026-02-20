@@ -23,8 +23,7 @@ body {
 .site-header {
   background: white;
   padding: 1.2rem 0;
-  border-bottom: 2px #467c5c;
-  border-style: dashed;
+  border-bottom: 5px #6fa183;
 }
 
 .site-header .container {
@@ -36,7 +35,7 @@ body {
 .logo {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #459b85;
+  color: #7bc1b0;
 }
 
 .nav-links {
