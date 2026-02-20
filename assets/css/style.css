@@ -155,10 +155,11 @@ body {
 
 .contact-image {
   flex: 1;
+  background-color: #93b6a9;
 }
 
 .contact-text h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .contact-image img {
