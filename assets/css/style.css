@@ -23,7 +23,8 @@ body {
 .site-header {
   background: white;
   padding: 1.2rem 0;
-  border-bottom: 1px dashed #467c5c;
+  border-bottom: 2px #467c5c;
+  border-style: dashed;
 }
 
 .site-header .container {
