@@ -72,7 +72,7 @@ body {
   /* Creates the gap above the entire hero section */
   padding-top: 50px;
   padding-bottom: 50px;
-  border-bottom: #777 solid 1px;
+  border-bottom: #577e70 dashed 5px;
 }
 
 .hero-text {
@@ -98,7 +98,7 @@ body {
 
 /* Content Sections */
 .content-section {
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 .content-section h3 {
