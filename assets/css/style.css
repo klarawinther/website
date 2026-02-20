@@ -149,17 +149,26 @@ body {
   padding-bottom: 50px;
 }
 
+.contact-image {
+  flex: 1;
+}
+
 .contact-text {
   flex: 1;
 }
 
-.contact-image {
-  flex: 1;
-  background-color: #93b6a9;
-}
-
 .contact-text h1 {
   margin-bottom: 1rem;
+}
+
+.contact-text ul li {
+  margin-left: 1.5rem;
+  list-style-type: circle;
+}
+
+.contact-text a {
+  color: #449782;
+  text-decoration: none;
 }
 
 .contact-image img {
