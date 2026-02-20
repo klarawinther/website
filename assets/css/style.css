@@ -61,28 +61,6 @@ body {
   color: #449782; /* accent color */
 }
 
-/* Dropdown container */
-.dropdown {
-  position: relative;
-}
-
-/* Hide dropdown by default */
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-
-  background: white;
-  list-style: none;
-  padding: 0.5rem 0;
-  margin: 0;
-
-  border: 1px solid #e5e5e5;
-  border-radius: 4px;
-  min-width: 120px;
-}
-
 /* Hero Section */
 .hero-layout {
   display: flex;
@@ -159,7 +137,44 @@ body {
 
 /* CONTACT PAGE */
 
-.hero-contact {
+.contact-container {
+  display: flex;
+  /* Change 'center' to 'flex-start' so both image and text align to the top */
+  align-items: flex-start; 
+  justify-content: space-between;
+  gap: 3rem;
+  
+  /* Creates the gap above the entire hero section */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact-text {
+  flex: 1;
+}
+
+.contact-image {
+  flex: 1;
+}
+
+.contact-text h1 {
+  margin-bottom: 2rem;
+}
+
+.contact-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.contact-hero {
   background: #f0f0f0;
   padding: 4rem 0;
   text-align: center;
