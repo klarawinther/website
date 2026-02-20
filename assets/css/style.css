@@ -170,6 +170,7 @@ body {
 .contact-text a {
   color: #449782;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 /* Visited link */
@@ -179,8 +180,7 @@ body {
 
 /* Hover state */
 .contact-text a:hover {
-  color: #2f6657;
-  text-decoration: underline;
+  border-bottom: 1px solid #2f6657;
 }
 
 /* Active (when clicked) */
