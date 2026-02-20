@@ -163,7 +163,6 @@ body {
 
 .contact-image img {
   width: 100%;
-  max-width: 100px;
   height: auto;
   border-radius: 8px;
 }
