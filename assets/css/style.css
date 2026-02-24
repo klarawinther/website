@@ -75,6 +75,11 @@ body {
   border-bottom: #577e70 solid 5px;
 }
 
+.hero-image {
+  flex: 1;
+  position: relative;
+}
+
 .hero-text {
   flex: 1;
 }
@@ -83,14 +88,21 @@ body {
   margin-bottom: 1rem;
 }
 
-.hero-image {
-  flex: 1;
-}
-
 .hero-image img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+}
+
+.hero-image span {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 0.8rem;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  padding: 4px 8px;
+  border-radius: 4px;
 }
 
 @media (max-width: 768px) {
@@ -155,6 +167,7 @@ body {
 
 .contact-image {
   flex: 1;
+  position: relative;
 }
 
 .contact-text {
@@ -199,6 +212,17 @@ body {
   border-radius: 8px;
 }
 
+.contact-image span {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 0.8rem;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
 @media (max-width: 768px) {
   .contact-layout {
     flex-direction: column;
@@ -225,6 +249,7 @@ body {
 .about-image {
   flex: 1;
   text-align: justify;
+  position: relative;
 }
 
 .about-text {
@@ -244,6 +269,17 @@ body {
   width: 100%;
   height: auto;
   border-radius: 8px;
+}
+
+.about-image span {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 0.8rem;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  padding: 4px 8px;
+  border-radius: 4px;
 }
 
 @media (max-width: 768px) {
