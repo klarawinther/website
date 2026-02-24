@@ -227,6 +227,11 @@ body {
   flex: 1;
 }
 
+.about-text p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .about-image img {
   width: 100%;
   height: auto;
