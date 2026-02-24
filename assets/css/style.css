@@ -72,11 +72,15 @@ body {
   /* Creates the gap above the entire hero section */
   padding-top: 50px;
   padding-bottom: 50px;
-  border-bottom: #577e70 dashed 5px;
+  border-bottom: #577e70 solid 5px;
 }
 
 .hero-text {
   flex: 1;
+}
+
+.hero-text h1 {
+  margin-bottom: 1rem;
 }
 
 .hero-image {
@@ -225,6 +229,10 @@ body {
 
 .about-text {
   flex: 1;
+}
+
+.about-text h1 {
+  margin-bottom: 1rem;
 }
 
 .about-text p {
