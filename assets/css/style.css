@@ -308,10 +308,9 @@ body {
   /* Creates the gap above the entire hero section */
   padding-top: 50px;
   padding-bottom: 50px;
-  position: relative;
 }
 
-.sketch {
+.projects-text .sketch {
   position: absolute;
   top: 40px;
   right: 40px;
@@ -327,6 +326,7 @@ body {
 
 .projects-text {
   flex: 1;
+  position: relative;
 }
 
 .projects-text h1 {
