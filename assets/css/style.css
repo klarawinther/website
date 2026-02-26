@@ -71,7 +71,7 @@ body {
   
   /* Creates the gap above the entire hero section */
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
 }
 
 .hero-image {
@@ -81,6 +81,14 @@ body {
 
 .hero-text {
   flex: 1;
+  position: relative;
+}
+
+.hero-text .sketch {
+  position: absolute;
+  top: 20px;
+  width: 80%;
+  border-radius: 50%;
 }
 
 .hero-text h1 {
