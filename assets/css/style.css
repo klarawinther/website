@@ -275,7 +275,7 @@ body {
 .about-text .sketch {
   position: absolute;
   top: -80px;
-  right: 50px;
+  right: 40px;
   width: 110%;
   z-index: -1; /* Ensure the sketch is behind the text */
 }
