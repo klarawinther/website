@@ -318,6 +318,8 @@ body {
 
 .projects-text {
   flex: 1;
+  background-image: url('assets/images/map_sketch.jpeg');
+  background-size: cover;
 }
 
 .projects-text h1 {
