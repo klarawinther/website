@@ -249,7 +249,7 @@ body {
   
   /* Creates the gap above the entire hero section */
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
 }
 
 .about-image {
@@ -267,7 +267,7 @@ body {
   position: absolute;
   top: 20px;
   width: 80%;
-  border-radius: 60%;
+  border-radius: 50%;
 }
 
 .about-text h1 {
