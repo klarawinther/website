@@ -308,6 +308,15 @@ body {
   /* Creates the gap above the entire hero section */
   padding-top: 50px;
   padding-bottom: 50px;
+  position: relative;
+}
+
+.sketch {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  width: 200px;
+  opacity: 0.15;
 }
 
 .projects-image {
@@ -318,8 +327,6 @@ body {
 
 .projects-text {
   flex: 1;
-  background-image: url('assets/images/map_sketch.jpeg');
-  background-size: cover;
 }
 
 .projects-text h1 {
