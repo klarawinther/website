@@ -307,13 +307,14 @@ body {
   
   /* Creates the gap above the entire hero section */
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 .projects-text .sketch {
   position: absolute;
   top: 20px;
   width: 80%;
+  border-radius: 20%;
 }
 
 .projects-image {
