@@ -314,8 +314,7 @@ body {
   position: absolute;
   top: 40px;
   right: 40px;
-  width: 200px;
-  opacity: 0.15;
+  width: 100%;
 }
 
 .projects-image {
