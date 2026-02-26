@@ -313,8 +313,7 @@ body {
 .projects-text .sketch {
   position: absolute;
   top: 40px;
-  right: 40px;
-  width: 50%;
+  width: 80%;
 }
 
 .projects-image {
