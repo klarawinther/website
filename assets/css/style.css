@@ -276,7 +276,6 @@ body {
   position: absolute;
   top: 20px;
   width: 80%;
-  clip-path: circle(60%);
   z-index: -1; /* Ensure the sketch is behind the text */
 }
 
