@@ -260,6 +260,14 @@ body {
 
 .about-text {
   flex: 1;
+  position: relative;
+}
+
+.about-text .sketch {
+  position: absolute;
+  top: 20px;
+  width: 80%;
+  border-radius: 60%;
 }
 
 .about-text h1 {
