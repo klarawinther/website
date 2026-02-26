@@ -32,7 +32,7 @@ body {
 }
 
 .logo {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: #5f8f7e;
 }
@@ -70,21 +70,23 @@ body {
   gap: 3rem;
   
   /* Creates the gap above the entire hero section */
-  padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .hero-image {
   flex: 1;
   position: relative;
+  padding-top: 50px;
 }
 
 .hero-text {
   flex: 1;
+  padding-top: 20px;
 }
 
 .hero-text h1 {
   margin-bottom: 1rem;
+  color: #5f8f7e;
 }
 
 .hero-text p {
