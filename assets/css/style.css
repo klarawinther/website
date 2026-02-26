@@ -11,10 +11,6 @@ body {
   line-height: 1.6;
   background-color: #f8f9fa;
   color: #222;
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
 }
 
 .container {
@@ -75,7 +71,7 @@ body {
   
   /* Creates the gap above the entire hero section */
   padding-top: 50px;
-  padding-bottom: 150px;
+  padding-bottom: 200px;
 }
 
 .hero-image {
@@ -90,9 +86,9 @@ body {
 
 .hero-text .sketch {
   position: absolute;
-  top: 20px;
-  width: 80%;
-  border-radius: 50%;
+  top: -80px;
+  right: 40px;
+  width: 110%;
   z-index: -1; /* Ensure the sketch is behind the text */
 }
 
@@ -263,7 +259,7 @@ body {
   
   /* Creates the gap above the entire hero section */
   padding-top: 50px;
-  padding-bottom: 150px;
+  padding-bottom: 200px;
 }
 
 .about-image {
@@ -330,14 +326,15 @@ body {
   
   /* Creates the gap above the entire hero section */
   padding-top: 50px;
-  padding-bottom: 150px;
+  padding-bottom: 200px;
 }
 
 .projects-text .sketch {
   position: absolute;
-  top: 20px;
-  width: 80%;
-  border-radius: 60%;
+  top: -80px;
+  right: 40px;
+  width: 110%;
+  z-index: -1; /* Ensure the sketch is behind the text */
 }
 
 .projects-image {
