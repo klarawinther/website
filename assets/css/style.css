@@ -120,7 +120,7 @@ body {
   
   /* Creates the gap above the entire hero section */
   padding-top: 50px;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
 }
 
 .hero-image {
@@ -291,7 +291,7 @@ body {
   
   /* Creates the gap above the entire hero section */
   padding-top: 50px;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
 }
 
 .about-image {
@@ -352,7 +352,7 @@ body {
   
   /* Creates the gap above the entire hero section */
   padding-top: 50px;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
 }
 
 .projects-text .sketch {
