@@ -441,8 +441,6 @@ body {
 
 .fieldwork-gallery {
   column-count: 3;
-  column-gap: 1rem;
-  margin-top: 3rem;
 }
 
 .fieldwork-gallery img {
