@@ -432,7 +432,7 @@ body {
 
 /* FIELDWORK PAGES */
 
-.scotland-text, .norfolk-text h1 {
+.scotland-text, .norfolk-text, .spain-text, .thailand-text h1 {
   margin-bottom: 1rem;
   color: #2c5949;
   padding-top: 50px;
