@@ -432,19 +432,27 @@ body {
 
 /* FIELDWORK PAGES */
 
-.scotland-hero, .norfolk-hero {
-  display: flex;
-  /* Change 'center' to 'flex-start' so both image and text align to the top */
-  align-items: flex-start; 
-  justify-content: space-between;
-  gap: 3rem;
-  
-  /* Creates the gap above the entire hero section */
+.scotland-text, .norfolk-text h1 {
+  margin-bottom: 1rem;
+  color: #2c5949;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.scotland-text, .norfolk-text h1 {
-  margin-bottom: 1rem;
-  color: #2c5949;
+.fieldwork-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.fieldwork-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  transition: transform 0.25s ease;
+}
+
+.fieldwork-gallery img:hover {
+  transform: scale(1.03);
 }
