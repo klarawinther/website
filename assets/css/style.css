@@ -429,3 +429,22 @@ body {
   padding: 4px 8px;
   border-radius: 4px;
 }
+
+/* FIELDWORK PAGES */
+
+.scotland-hero, .norfolk-hero {
+  display: flex;
+  /* Change 'center' to 'flex-start' so both image and text align to the top */
+  align-items: flex-start; 
+  justify-content: space-between;
+  gap: 3rem;
+  
+  /* Creates the gap above the entire hero section */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.scotland-text, .norfolk-text h1 {
+  margin-bottom: 1rem;
+  color: #2c5949;
+}
