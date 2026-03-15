@@ -475,12 +475,13 @@ body {
 
 .dropdown {
   position: relative;
+  padding-bottom: 6px;
 }
 
 /* Dropdown panel */
 .dropdown-content {
   position: absolute;
-  top: 100%;
+  top: calc(100% + 6px);
   left: 0;
 
   background: white;
@@ -489,7 +490,6 @@ body {
 
   min-width: 180px;
   padding: 0.5rem 0;
-  margin-top: 6px;
 
   box-shadow: 0 6px 12px rgba(0,0,0,0.08);
 
