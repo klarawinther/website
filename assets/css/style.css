@@ -524,12 +524,6 @@ body {
   color: #449782;
 }
 
-/* Active link */
-.dropdown-content a.active {
-  color: #449782;
-  font-weight: 500;
-}
-
 .site-header {
   position: relative;
   z-index: 2000;
