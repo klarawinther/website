@@ -473,8 +473,8 @@ body {
 
 /* DROPDOWN DESIGN */
 
-.dropdown {
-  position: relative;
+.dropdown > a {
+  display: inline-block;
   padding-bottom: 6px;
 }
 
@@ -503,7 +503,8 @@ body {
 }
 
 /* Show dropdown */
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content,
+.dropdown-content:hover {
   opacity: 1;
   transform: translateY(0);
   pointer-events: auto;
