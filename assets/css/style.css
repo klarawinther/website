@@ -351,7 +351,7 @@ body {
 .fieldwork-card {
   text-decoration: none;
   color: #2c5949;
-  background: rgba(255,255,255,0.8);
+  background: rgb(133, 169, 157);
   padding: 1rem;
   border-radius: 8px;
   border: 1px solid #d8e2dc;
@@ -441,6 +441,7 @@ body {
 
 .fieldwork-gallery {
   column-count: 3;
+  column-gap: 1rem;
 }
 
 .fieldwork-gallery img {
@@ -468,4 +469,55 @@ body {
   .fieldwork-gallery {
     column-count: 1;
   }
+}
+
+/* DROPDOWN DESIGN */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  background: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+
+  min-width: 180px;
+  padding: 0.5rem 0;
+
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.dropdown-content a:hover {
+  background: #f5f5f5;
+  color: #449782;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.site-header {
+  position: relative;
+  z-index: 2000;
+}
+
+.dropdown-content a.active {
+  color: #449782;
+  font-weight: 500;
 }
