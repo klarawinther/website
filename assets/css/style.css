@@ -495,12 +495,17 @@ body {
   z-index: 1000;
 }
 
-.dropdown-content a {
-  display: block;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  color: #333;
-  font-size: 0.95rem;
+.dropdown-content {
+  opacity: 0;
+  transform: translateY(8px);
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.dropdown:hover .dropdown-content {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
 }
 
 .dropdown-content a:hover {
