@@ -49,6 +49,7 @@ body {
 
   .nav-links li {
     margin: 5px 0;
+    position: relative;
   }
 }
 
@@ -475,11 +476,12 @@ body {
 
 .dropdown {
   position: relative;
+  display: block;
 }
 
 .dropdown > a {
-  display: inline-block;
-  padding-bottom: 6px;
+  display: block;
+  padding: 6px 0;
 }
 
 /* Dropdown panel */
@@ -492,7 +494,7 @@ body {
   border: 1px solid #e5e5e5;
   border-radius: 6px;
 
-  min-width: 180px;
+  min-width: 200px;
   padding: 0.5rem 0;
 
   box-shadow: 0 6px 12px rgba(0,0,0,0.08);
