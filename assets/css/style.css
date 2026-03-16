@@ -473,6 +473,10 @@ body {
 
 /* DROPDOWN DESIGN */
 
+.dropdown {
+  position: relative;
+}
+
 .dropdown > a {
   display: inline-block;
   padding-bottom: 6px;
