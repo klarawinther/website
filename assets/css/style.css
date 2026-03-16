@@ -499,7 +499,7 @@ body {
   pointer-events: none;
   transition: opacity 0.2s ease, transform 0.2s ease;
 
-  z-index: 1000;
+  z-index: 9999;
 }
 
 .nav-links li:hover .dropdown-content {
