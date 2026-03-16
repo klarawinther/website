@@ -72,6 +72,8 @@ body {
 .site-header {
   background: white;
   padding: 1.2rem 0;
+  position: relative;
+  z-index: 2000;
 }
 
 .site-header .container {
@@ -499,7 +501,7 @@ body {
   pointer-events: none;
   transition: opacity 0.2s ease, transform 0.2s ease;
 
-  z-index: 9999;
+  z-index: 1000;
 }
 
 .nav-links li:hover .dropdown-content {
